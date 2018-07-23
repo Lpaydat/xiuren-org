@@ -4,17 +4,10 @@
   "description": "Download all pictures from xiuren.org",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel src -d lib; node lib/app.js"
   },
-  "keywords": [
-    "fb",
-    "Facebook",
-    "facebook",
-    "picture",
-    "image",
-    "downloader",
-    "downloader"
-  ],
+  "keywords": ["picture", "image", "downloader", "downloader"],
   "author": "Prathak Paisanwatcharakit",
   "license": "ISC",
   "dependencies": {
